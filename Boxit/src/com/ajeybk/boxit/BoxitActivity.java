@@ -201,7 +201,7 @@ public class BoxitActivity extends Activity {
   private void createEmptyScoreFile(){
 	  try{
 		  FileOutputStream scoreOutFile = this.openFileOutput(SCOREFILE,MODE_PRIVATE);
-		  JIniFile iniFile = new JIniFile(scoreOutFile);
+		  BoxitSaveFile iniFile = new BoxitSaveFile(scoreOutFile);
           iniFile.WriteInteger(OPTIONS,SOUNDOPTION, 0);
           iniFile.WriteInteger(OPTIONS,SCORES, 0);
           iniFile.UpdateFile();
@@ -240,7 +240,7 @@ public class BoxitActivity extends Activity {
 	  }  
 	  try {
 		  FileInputStream scoreFile = this.openFileInput(SCOREFILE);
-		  JIniFile iniFile = new JIniFile(scoreFile);
+		  BoxitSaveFile iniFile = new BoxitSaveFile(scoreFile);
 		  if( !iniFile.readFile() ){
 			  iniFile = null;
 			  return;
@@ -267,7 +267,7 @@ public class BoxitActivity extends Activity {
 		 int lenScore = dataScores.size();
 	     try{
 			  FileOutputStream scoreOutFile = this.openFileOutput(SCOREFILE,MODE_PRIVATE);
-			  JIniFile iniFile = new JIniFile(scoreOutFile);
+			  BoxitSaveFile iniFile = new BoxitSaveFile(scoreOutFile);
 			  iniFile.WriteInteger(OPTIONS,SOUNDOPTION, 0);
 	          iniFile.WriteInteger(OPTIONS,SCORES, lenScore);
 			  if (lenScore > 0) {

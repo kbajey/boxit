@@ -28,12 +28,12 @@ import java.util.List;
  * @version 1.0
  *
  */
-public class JIniFile extends ArrayList {
+public class BoxitSaveFile extends ArrayList {
 	FileInputStream fsInput;
 	boolean readMode = true;
 	FileOutputStream fsOutput;
 	
-	public JIniFile(FileOutputStream fos) {
+	public BoxitSaveFile(FileOutputStream fos) {
 		  fsOutput = fos;
 		  readMode = false;
 	}
@@ -47,7 +47,7 @@ public class JIniFile extends ArrayList {
    * <b>Note:</b> By default the INI files are stored in the Application directory. To work with an INI file in another
    *              location, specify the full path name of the file in FileName.
    */
-  public JIniFile(FileInputStream fis) {
+  public BoxitSaveFile(FileInputStream fis) {
 	  fsInput = fis;
 	  readMode = true;
 	  clear();
