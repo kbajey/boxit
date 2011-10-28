@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Break N Make 1</string>
+  <string name="pause">Pause</string>
+  <string name="puzzle">Puzzle</string>
+  <string name="picture">Picture</string>
+  <string name="aboutstr">About</string>
+  <string name="resumestr">Resume</string>
+  <string name="playstr">Play</string>
+  <string name="quitstr">Quit</string>
+  <string name="newstr">New</string>
+  <string name="okstr">Ok</string>
+  <string name="cancelstr">Cancel</string>
+  <string name="yesstr">Yes</string>
+  <string name="nostr">No</string>
+  <string name="gameover">Puzzle Arranged</string>
+  <string name="updatescorequestion">Do you want to update this score?</string>
+  <string name="playername">User Name</string>
+  <string name="enterplayername">Input the player Name:</string>
+  <string name="viewscores">View Scores</string>
+  <string name="scoresmenu">Scores</string>
+  <string name="hinton">Hint On</string>
+  <string name="hintoff">Hint Off</string>
+  <string name="tiles">Tiles</string>
+  <string name="chooseimage">Gallery</string>
+  <string name="camera">Camera</string>
+  <string name="selectpicture">Pick an Item:</string>
+  <string name="choosenumber">Choose number of Squares:</string>
+  <string name="exitquestion">Are you sure you want to exit?</string>
+  <string name="resetscoresquestion">Do you want to delete all the historical scores?</string>
+  <string name="deletescores">Delete Scores</string>
+  
+  
+  <string name="undo">Undo</string>
+  
+  <string name="cardinal_north">N</string>
+  <string name="cardinal_east">E</string>
+  <string name="cardinal_south">S</string>
+  <string name="cardinal_west">W</string>
+</resources>

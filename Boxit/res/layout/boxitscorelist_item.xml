@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:background="@color/notepad_paper">
+  <TextView
+    android:id="@+id/rowIdx"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"  
+    android:padding="10dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textColor="@color/notepad_text"
+  />
+  <TextView
+    android:id="@+id/rowName"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:layout_weight = "1"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textColor="@color/notepad_text"
+  />
+  <TextView
+    android:id="@+id/rowToken"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textColor="@color/notepad_text"
+  />
+  <TextView
+    android:id="@+id/rowTime"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textColor="@color/notepad_text"
+  />
+</LinearLayout>
