@@ -4,7 +4,7 @@
   android:orientation="vertical"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent">
-  <com.paad.compass.BoxitView
+  <com.ajeybk.boxit.BoxitView
     android:id="@+id/boxitView"
     android:layout_width="fill_parent"            
     android:layout_height="fill_parent"
